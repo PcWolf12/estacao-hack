@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(59, 59, 59)
+}
+
+#container {
+    display: flex;
+    flex-wrap: warp;
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+
+}
+
+.box img {
+    max-width:50vh;
+    max-width: 50vh;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+
+}
+
+.boxg img {
+    max-width:60vh;
+    max-height:60vh;
+    width: auto;
+    height: auto;
+}
+
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: aquamarine;
+}
